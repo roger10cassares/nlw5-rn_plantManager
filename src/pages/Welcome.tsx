@@ -9,7 +9,7 @@ import colors from '../styles/colors';
 
 export function Welcome(){
 
-  const [visible, setVisible] = useState(false);
+  const [visible, setVisible] = useState(true);
 
   function handleVisibility(){
     setVisible(true)
@@ -32,8 +32,7 @@ export function Welcome(){
           We care about remind you always that is needed.
         </Text>
 
-        {/* <Button title="Image" onPress={handleVisibility}/> */}
-        <Button title=">"/>
+        <Button title=">" onPress={handleVisibility}/>
     </SafeAreaView>
 
   )
