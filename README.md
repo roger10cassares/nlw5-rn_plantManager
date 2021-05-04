@@ -6,7 +6,7 @@ React Native Route from the Rocketseat's NLW5 using Expo Framework.
 # Use
 1. Git clone this repository
 ```bash
-git clone https://github.com/roger10cassares/nlw5-rn_plantManager.git
+git clone https://github.com/roger10cassares/rn_plantManager-nlw5.git
 ```
 
 2. Go to the Top Leval Project Directory:
